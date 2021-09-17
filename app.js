@@ -85,5 +85,6 @@ function reduceNumber(number){
     
     fs.writeFile('output.txt', fileWritten,(err)=>{
         if(err) throw err;
+        console.log("written to output Successfully!");
     } );
 });
