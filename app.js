@@ -3,8 +3,6 @@ const fs = require("fs");
 const ps = require("prompt-sync");
 const prompt = ps();
 
-
-
 let name1 = prompt("Enter your Name1:");
 let name2 = prompt("Enter your Name2:");
 
